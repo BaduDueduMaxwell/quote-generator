@@ -136,7 +136,7 @@ export default function Quote() {
         backgroundColor: colorPalettes[colorPaletteIndex][0],
       }}
     >
-      <div className="w-1/2 border mt-10 p-20 rounded-lg bg-slate-50">
+      <div className="w-full border mt-10 p-20 rounded-lg bg-slate-50 lg:w-1/2">
         <div
           className="text-2xl font-mono"
           style={{ color: colorPalettes[colorPaletteIndex][0] }}
